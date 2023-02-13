@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body{
+    font-family: 'ubuntu';
+    text-align: center;
+    font-size: 14px;
+    background-image: url("../assets/pie-background.jpg");
+    background-size: cover;    
+        
+}
+
+
+.pie-chart-content{
+    padding-top: 150px;
+    padding-bottom: 150px; 
+
+}
+.pie-chart-content .container{
+    background-color: aliceblue;
+    padding: 0px;
+    border-radius: 40px;
+}
+
+
+
+.main-box{
+    height: 420px;
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-left: 80px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.count-box{
+    background: linear-gradient(100deg,#014224, #00130b);
+    color: white;
+    height: 100%;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px; 
+    padding: 150px;
+}
+
+.groceries-input{
+    background: linear-gradient(180deg,#ff8c00,#b36200);
+    border: none; 
+    color: white;
+}
+
+.bills-input{
+    background: linear-gradient(180deg,#f14d49,#ac3635);
+    border: none;    
+    color: white;
+}
+
+.savings-input{
+    background: linear-gradient(180deg,#4ebbb6,#2b6466);
+    border: none;    
+    color: white;
+}
+
+.hobbies-input{
+    background: linear-gradient(180deg,#797ef6,#4a4d99);
+    border: none;    
+    color: white;
+}
+
+.form-control:focus{
+    background: none;
+    color: white;
+    border: none;
+}
+
+@media(max-width: 991px){
+    .count-box{
+        padding: 100px 30px;
+    }
+}
+@media(max-width: 767px){
+    .pie-chart-content{
+        padding-top: 50px;
+        padding-bottom: 100px; 
+    
+    }
+    .main-box{
+        background-color: aliceblue;
+        height: 100%;
+        padding: 20px 40px 40px 40px;
+
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .count-box{
+        padding: 100px 150px;
+        background: linear-gradient(180deg,#014224, #00130b);
+        border-top-right-radius: 0px;        
+        border-bottom-left-radius: 30px;
+    }
+}

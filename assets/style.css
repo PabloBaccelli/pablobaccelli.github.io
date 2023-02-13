@@ -1,1 +1,32 @@
-h1,p{font-family:Ubuntu,sans-serif}.card-body{color:#fff;display:flex;flex-direction:column;align-items:center}.card-body-content{width:220px;height:220px;transition:.2s ease-in-out;border:5px solid #0d0055;background-color:#a8adf8;border-radius:50%;position:relative;display:inline-block}.card-body-content-img{transition:opacity .1s linear;margin-left:15px;opacity:0;position:absolute;top:0;left:0}.card-body:hover img{opacity:1}
+h1,
+p {
+    font-family: Ubuntu, sans-serif;
+}
+
+.card-body {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-body-content {
+    width: 220px;
+    height: 220px;
+    transition: 0.2s ease-in-out;
+    border: 5px solid #0d0055;
+    background-color: #a8adf8;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+}
+.card-body-content-img {
+    transition: opacity 0.1s linear;
+    margin-left: 15px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card-body:hover img {
+    opacity: 1;
+}

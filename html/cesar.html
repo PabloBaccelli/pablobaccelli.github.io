@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cesar.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <title>Cifrado Cesar</title>
+</head>
+<body>
+    <main>
+        <h1>Cifrado Cesar</h1>
+        <form id="cifrador" autocomplete="off">
+            <input id="input-original" spellcheck="false" placeholder="Ingrese el texto" type="text" name="text">
+        </form>
+        <div id="resultado">
+
+        </div>
+        <div class="rango">
+            <input type="range" id="rango" value="13" min="1" max="26" oninput="this.nextElementSibling.value = this.value">
+            <output>13</output>
+    </main>
+    
+</body>
+<script src="../js/cesar.js"></script>
+</html>
