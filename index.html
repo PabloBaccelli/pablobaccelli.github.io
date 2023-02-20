@@ -61,6 +61,17 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      .card,.card img{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        transition: 0.2s ease-in-out;
+      }
+      .btn{
+        margin: 3px;
+      }
+      footer{
+        background: linear-gradient(180deg, rgb(222, 224, 255),rgb(184, 209, 255));
+      }
     </style>
 
     
@@ -93,7 +104,7 @@
   </div>
 </header>
 
-<main style="background: linear-gradient(180deg,rgb(255, 255, 255),rgb(253, 249, 249),rgb(228, 209, 247),rgb(211, 213, 238))">
+<main style="background: linear-gradient(180deg,rgb(255, 255, 255),rgb(255, 255, 255),rgb(255, 255, 255),rgb(222, 224, 255),rgb(222, 224, 255),rgb(222, 224, 255))">
   <div style="background: linear-gradient(180deg,rgb(0, 23, 51),rgb(1, 66, 146)) ;">
     <section class="py-5 text-center container">
           <div class="card-body">
@@ -125,7 +136,7 @@
       <div class="row row-cols-1 row-cols-sm-2 g-5">
 
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card">
             <img src="assets/pie.PNG" >
             <div class="card-body">
               <p class="card-text">Gráfico circular hecho con la librería Chart.js, acepta cuatro valores numericos.</p>
@@ -134,7 +145,7 @@
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="./html/pie-chart.html" target="_blank">
-                    <button type="button" class="btn btn-sm btn-outline-success">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Probar</button>
                   </a>
                   <a href="https://github.com/PabloBaccelli/PieChart" target="_blank">
                     <button type="button" class="btn btn-sm btn-outline-primary">Codigo</button>
@@ -147,14 +158,14 @@
         </div>
 
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card">
             <img src="assets/cesar.PNG" >
             <div class="card-body">
               <p class="card-text">se dice que Julio César utilizaba este cifrado por sustitución con sus guardias.<br>se reemplaza una letra del abecedario por otra X espacios más adelante.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="./html/cesar.html" target="_blank">
-                    <button type="button" class="btn btn-sm btn-outline-success">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Probar</button>
                   </a>
                   <a href="https://github.com/PabloBaccelli/CifradoCesar" target="_blank">
                     <button type="button" class="btn btn-sm btn-outline-primary">Codigo</button>
@@ -167,14 +178,14 @@
         </div>        
 
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card">
             <img src="assets/calculadora.PNG" >
             <div class="card-body">
               <p class="card-text">presionando el botón de la esquina superior derecha esta calculadora cambia de modo oscuro a modo claro.</p><br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="./html/calculator.html" target="_blank">
-                    <button type="button" class="btn btn-sm btn-outline-success">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Probar</button>
                   </a>
                   <a href="https://github.com/PabloBaccelli/CalculadoraInterruptor" target="_blank">
                     <button type="button" class="btn btn-sm btn-outline-primary">Codigo</button>
@@ -186,14 +197,14 @@
         </div>        
         
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card">
             <img src="assets/grifo.PNG" >
             <div class="card-body">
               <p class="card-text">haciendo esta "carta" reforcé conocimientos generales de html y css, además de aprender sobre el uso de transiciones.</p><br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="./html/stats-card.html" target="_blank">
-                    <button type="button" class="btn btn-sm btn-outline-success">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-success">Probar</button>
                   </a>
                   <a href="https://github.com/PabloBaccelli/CartaColeccion" target="_blank">
                     <button type="button" class="btn btn-sm btn-outline-primary">Codigo</button>
@@ -214,7 +225,7 @@
 <footer class="text-muted py-5">
   <div class="container">
     <p class="float-end mb-1">
-      <a href="#">Volver</a>
+      <a class="btn btn-sm btn-secondary" href="#">Volver</a>
     </p>
     
   </div>
